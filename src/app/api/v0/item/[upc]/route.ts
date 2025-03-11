@@ -55,30 +55,32 @@ type Item = {
 
 export async function GET(
   request: Request,
-  { params }: { params: { upc: string } }
+  { params }: { params: { upc: string } },
 ) {
-  const upc = params.upc
+  const upc = await params.upc
   console.log(upc)
-  const file = await fs.readFile( `${ process.cwd() }/data/items.json`, 'utf8' )
-  const data = await JSON.parse( file )
-  const items = await data.filter( ( rawItem: RawItem ) => {
-    return rawItem.Results[0].UPCs.includes( upc )
-  } ).map( ( rawItem: RawItem ) => {
-    const itemData = rawItem.Results[ 0 ]
-    const item: Item = {
-      id: itemData.Id,
-      name: itemData.Name,
-      UPCs: itemData.UPCs,
-      description: itemData.Description,
-      imageUrl: itemData.ImageUrl,
-      categoryId: itemData.CategoryId,
-      form: itemData.Attributes.Form.Values[ 0 ].Value,
-      collection: itemData.Attributes.Collection.Values[ 0 ].Value,
-      productType: itemData.Attributes.Product_Type.Values[ 0 ].Value,
-      fragranceName: itemData.Attributes.Fragrance_Name.Values[ 0 ].Value,
-      productPageUrl: itemData.ProductPageUrl
-    }
-    return item
-  })
+  const file = await fs.readFile(`${process.cwd()}/data/items.json`, 'utf8')
+  const data = await JSON.parse(file)
+  const items = await data
+    .filter((rawItem: RawItem) => {
+      return rawItem.Results[0].UPCs.includes(upc)
+    })
+    .map((rawItem: RawItem) => {
+      const itemData = rawItem.Results[0]
+      const item: Item = {
+        id: itemData.Id,
+        name: itemData.Name,
+        UPCs: itemData.UPCs,
+        description: itemData.Description,
+        imageUrl: itemData.ImageUrl,
+        categoryId: itemData.CategoryId,
+        form: itemData.Attributes.Form.Values[0].Value,
+        collection: itemData.Attributes.Collection.Values[0].Value,
+        productType: itemData.Attributes.Product_Type.Values[0].Value,
+        fragranceName: itemData.Attributes.Fragrance_Name.Values[0].Value,
+        productPageUrl: itemData.ProductPageUrl,
+      }
+      return item
+    })
   return Response.json(items)
 }
