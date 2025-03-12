@@ -1,0 +1,328 @@
+[
+  {
+    "Limit": 10,
+    "Offset": 0,
+    "TotalResults": 1,
+    "Locale": "en_US",
+    "Results": [
+      {
+        "AttributesOrder": [
+          "Form",
+          "AVAILABILITY",
+          "Launch_Date",
+          "Collection",
+          "Product_Type",
+          "Fragrance_Name",
+          "GTIN14"
+        ],
+        "Attributes": {
+          "Form": {
+            "Id": "Form",
+            "Values": [
+              {
+                "Value": "PocketBac Hand Sanitizer",
+                "Locale": null
+              }
+            ]
+          },
+          "AVAILABILITY": {
+            "Id": "AVAILABILITY",
+            "Values": [
+              {
+                "Value": "True",
+                "Locale": null
+              }
+            ]
+          },
+          "Launch_Date": {
+            "Id": "Launch_Date",
+            "Values": [
+              {
+                "Value": "2025-01-06T11:00:00.000Z",
+                "Locale": null
+              }
+            ]
+          },
+          "Collection": {
+            "Id": "Collection",
+            "Values": [
+              {
+                "Value": "GARDEN VIEW",
+                "Locale": null
+              }
+            ]
+          },
+          "Product_Type": {
+            "Id": "Product_Type",
+            "Values": [
+              {
+                "Value": "PocketBac Hand Sanitizer",
+                "Locale": null
+              }
+            ]
+          },
+          "Fragrance_Name": {
+            "Id": "Fragrance_Name",
+            "Values": [
+              {
+                "Value": "Raspberry Tangerine",
+                "Locale": null
+              }
+            ]
+          },
+          "GTIN14": {
+            "Id": "GTIN14",
+            "Values": [
+              {
+                "Value": "00667659350155",
+                "Locale": null
+              }
+            ]
+          }
+        },
+        "Description": "What it smells like: a bright, citrusy fruit medley. \n\n What it does: kills 99.9% of most common bacteria.",
+        "UPCs": [
+          "667659350155"
+        ],
+        "Name": "Raspberry Tangerine PocketBac Hand Sanitizer",
+        "ImageUrl": "https://www.bathandbodyworks.com/on/demandware.static/-/Sites-master-catalog/default/dw21df90bb/hires/028011640.jpg",
+        "Id": "028011640",
+        "CategoryId": "pocketbac-hand-sanitizers",
+        "Active": true,
+        "ProductPageUrl": "https://www.bathandbodyworks.com/p/raspberry-tangerine-pocketbac-hand-sanitizer-028011640.html",
+        "Disabled": false,
+        "ModelNumbers": [],
+        "EANs": [],
+        "StoryIds": [],
+        "BrandExternalId": null,
+        "Brand": {},
+        "ManufacturerPartNumbers": [],
+        "ReviewIds": [],
+        "ISBNs": [],
+        "QuestionIds": [],
+        "FamilyIds": []
+      }
+    ],
+    "Includes": {},
+    "HasErrors": false,
+    "Errors": []
+  },
+  {
+    "Limit": 10,
+    "Offset": 0,
+    "TotalResults": 1,
+    "Locale": "en_US",
+    "Results": [
+      {
+        "AttributesOrder": [
+          "Form",
+          "AVAILABILITY",
+          "Launch_Date",
+          "Collection",
+          "Product_Type",
+          "Fragrance_Name",
+          "GTIN14"
+        ],
+        "Attributes": {
+          "Form": {
+            "Id": "Form",
+            "Values": [
+              {
+                "Value": "3-Wick Candle",
+                "Locale": null
+              }
+            ]
+          },
+          "AVAILABILITY": {
+            "Id": "AVAILABILITY",
+            "Values": [
+              {
+                "Value": "True",
+                "Locale": null
+              }
+            ]
+          },
+          "Launch_Date": {
+            "Id": "Launch_Date",
+            "Values": [
+              {
+                "Value": "2025-02-17T11:00:00.000Z",
+                "Locale": null
+              }
+            ]
+          },
+          "Collection": {
+            "Id": "Collection",
+            "Values": [
+              {
+                "Value": "EASTER",
+                "Locale": null
+              }
+            ]
+          },
+          "Product_Type": {
+            "Id": "Product_Type",
+            "Values": [
+              {
+                "Value": "3-Wick Candle",
+                "Locale": null
+              }
+            ]
+          },
+          "Fragrance_Name": {
+            "Id": "Fragrance_Name",
+            "Values": [
+              {
+                "Value": "Sweet Carrot Cake",
+                "Locale": null
+              }
+            ]
+          },
+          "GTIN14": {
+            "Id": "GTIN14",
+            "Values": [
+              {
+                "Value": "00667659359707",
+                "Locale": null
+              }
+            ]
+          }
+        },
+        "Description": "What it smells like: a rich, baked-just-right Easter delight. \n\n What it does: delivers an amazing, room-filling fragrance experience.",
+        "UPCs": [
+          "667659359707"
+        ],
+        "Name": "Sweet Carrot Cake 3-Wick Candle",
+        "ImageUrl": "https://www.bathandbodyworks.com/on/demandware.static/-/Sites-master-catalog/default/dwad1aba74/hires/028013013.jpg",
+        "Id": "028013013",
+        "CategoryId": "3-wick-candles",
+        "Active": true,
+        "ProductPageUrl": "https://www.bathandbodyworks.com/p/sweet-carrot-cake-3-wick-candle-028013013.html",
+        "Disabled": false,
+        "FamilyIds": [],
+        "ISBNs": [],
+        "QuestionIds": [],
+        "Brand": {},
+        "ModelNumbers": [],
+        "EANs": [],
+        "StoryIds": [],
+        "ReviewIds": [],
+        "ManufacturerPartNumbers": [],
+        "BrandExternalId": null
+      }
+    ],
+    "Includes": {},
+    "HasErrors": false,
+    "Errors": []
+  },
+  {
+    "Limit": 10,
+    "Offset": 0,
+    "TotalResults": 1,
+    "Locale": "en_US",
+    "Results": [
+      {
+        "AttributesOrder": [
+          "Form",
+          "AVAILABILITY",
+          "Launch_Date",
+          "Collection",
+          "Product_Type",
+          "Fragrance_Name",
+          "GTIN14"
+        ],
+        "Attributes": {
+          "Form": {
+            "Id": "Form",
+            "Values": [
+              {
+                "Value": "Gentle & Clean Foaming Hand Soap",
+                "Locale": null
+              }
+            ]
+          },
+          "AVAILABILITY": {
+            "Id": "AVAILABILITY",
+            "Values": [
+              {
+                "Value": "True",
+                "Locale": null
+              }
+            ]
+          },
+          "Launch_Date": {
+            "Id": "Launch_Date",
+            "Values": [
+              {
+                "Value": "2024-12-26T11:00:00.000Z",
+                "Locale": null
+              }
+            ]
+          },
+          "Collection": {
+            "Id": "Collection",
+            "Values": [
+              {
+                "Value": "CORE",
+                "Locale": null
+              }
+            ]
+          },
+          "Product_Type": {
+            "Id": "Product_Type",
+            "Values": [
+              {
+                "Value": "Foaming Hand Soap",
+                "Locale": null
+              }
+            ]
+          },
+          "Fragrance_Name": {
+            "Id": "Fragrance_Name",
+            "Values": [
+              {
+                "Value": "Midnight Blue Citrus",
+                "Locale": null
+              }
+            ]
+          },
+          "GTIN14": {
+            "Id": "GTIN14",
+            "Values": [
+              {
+                "Value": "00667659342785",
+                "Locale": null
+              }
+            ]
+          }
+        },
+        "Description": "What it smells like: a light, juicy everyday scent. \n\n What it does: washes away germs and helps maintain skin's natural moisture barrier\u2014without dyes, parabens or sulfates.",
+        "UPCs": [
+          "667659342785"
+        ],
+        "Name": "Midnight Blue Citrus Gentle & Clean Foaming Hand Soap",
+        "ImageUrl": "https://www.bathandbodyworks.com/on/demandware.static/-/Sites-master-catalog/default/dw649d31ca/hires/028011011.jpg",
+        "Id": "028011011",
+        "CategoryId": "foaming-hand-soap",
+        "BrandExternalId": "White Barn",
+        "Brand": {
+          "Id": "White Barn"
+        },
+        "Active": true,
+        "ProductPageUrl": "https://www.bathandbodyworks.com/p/midnight-blue-citrus-gentle-and-clean-foaming-hand-soap-028011011.html",
+        "Disabled": false,
+        "FamilyIds": [],
+        "ISBNs": [],
+        "QuestionIds": [],
+        "EANs": [],
+        "StoryIds": [],
+        "ModelNumbers": [],
+        "ManufacturerPartNumbers": [],
+        "ReviewIds": []
+      }
+    ],
+    "Includes": {},
+    "HasErrors": false,
+    "Errors": []
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "Limit": 10,
+  "Offset": 0,
+  "TotalResults": 1,
+  "Locale": "en_US",
+  "Results": [
+    {
+      "AttributesOrder": [
+        "Form",
+        "AVAILABILITY",
+        "Launch_Date",
+        "Collection",
+        "Product_Type",
+        "Fragrance_Name"
+      ],
+      "Attributes": {
+        "Form": {
+          "Id": "Form",
+          "Values": [
+            {
+              "Value": "Fine Fragrance Mist",
+              "Locale": null
+            }
+          ]
+        },
+        "AVAILABILITY": {
+          "Id": "AVAILABILITY",
+          "Values": [
+            {
+              "Value": "True",
+              "Locale": null
+            }
+          ]
+        },
+        "Launch_Date": {
+          "Id": "Launch_Date",
+          "Values": [
+            {
+              "Value": "2023-06-26T10:00:00.000Z",
+              "Locale": null
+            }
+          ]
+        },
+        "Collection": {
+          "Id": "Collection",
+          "Values": [
+            {
+              "Value": "SAND & SEA",
+              "Locale": null
+            }
+          ]
+        },
+        "Product_Type": {
+          "Id": "Product_Type",
+          "Values": [
+            {
+              "Value": "Body Spray & Mist",
+              "Locale": null
+            }
+          ]
+        },
+        "Fragrance_Name": {
+          "Id": "Fragrance_Name",
+          "Values": [
+            {
+              "Value": "Wild Sand",
+              "Locale": null
+            }
+          ]
+        }
+      },
+      "Description": "What it smells like: a sun-drenched desert getaway. \n\n What it does: scents your skin with a light-as-air-mist that's super layerable.",
+      "UPCs": [
+        "667558333761",
+        "667558333785"
+      ],
+      "Name": "Wild Sand Fine Fragrance Mist",
+      "ImageUrl": "https://www.bathandbodyworks.com/on/demandware.static/-/Sites-master-catalog/default/dw4abfc6c7/hires/026674475.jpg",
+      "Id": "026674475",
+      "CategoryId": "body-sprays-mists",
+      "Active": false,
+      "Disabled": false,
+      "ModelNumbers": [],
+      "EANs": [],
+      "StoryIds": [],
+      "Brand": {},
+      "BrandExternalId": null,
+      "ProductPageUrl": null,
+      "ManufacturerPartNumbers": [],
+      "ReviewIds": [],
+      "FamilyIds": [],
+      "ISBNs": [],
+      "QuestionIds": []
+    }
+  ]
+}
