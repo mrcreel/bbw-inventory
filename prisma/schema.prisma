@@ -15,7 +15,7 @@ datasource db {
 
 model Item {
   mongoId        String   @id @default(auto()) @map("_id") @db.ObjectId
-  id             String
+  id             String   @unique
   name           String
   UPCs           String[]
   description    String

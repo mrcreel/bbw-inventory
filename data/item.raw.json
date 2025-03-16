@@ -1,108 +1,208 @@
-{
-  "Limit": 10,
-  "Offset": 0,
-  "TotalResults": 1,
-  "Locale": "en_US",
-  "Results": [
-    {
-      "AttributesOrder": [
-        "Form",
-        "AVAILABILITY",
-        "Launch_Date",
-        "Collection",
-        "Product_Type",
-        "Fragrance_Name",
-        "GTIN14"
-      ],
-      "Attributes": {
-        "Form": {
-          "Id": "Form",
-          "Values": [
-            {
-              "Value": "Fine Fragrance Mist",
-              "Locale": null
-            }
-          ]
+[
+  {
+    "Limit": 10,
+    "Offset": 0,
+    "TotalResults": 1,
+    "Locale": "en_US",
+    "Results": [
+      {
+        "AttributesOrder": [
+          "Form",
+          "AVAILABILITY",
+          "Launch_Date",
+          "Collection",
+          "Product_Type",
+          "Fragrance_Name",
+          "GTIN14"
+        ],
+        "Attributes": {
+          "Form": {
+            "Id": "Form",
+            "Values": [
+              {
+                "Value": "Fine Fragrance Mist",
+                "Locale": null
+              }
+            ]
+          },
+          "AVAILABILITY": {
+            "Id": "AVAILABILITY",
+            "Values": [
+              {
+                "Value": "True",
+                "Locale": null
+              }
+            ]
+          },
+          "Launch_Date": {
+            "Id": "Launch_Date",
+            "Values": [
+              {
+                "Value": "2025-02-16T11:00:00.000Z",
+                "Locale": null
+              }
+            ]
+          },
+          "Collection": {
+            "Id": "Collection",
+            "Values": [
+              {
+                "Value": "COLLABORATION",
+                "Locale": null
+              }
+            ]
+          },
+          "Product_Type": {
+            "Id": "Product_Type",
+            "Values": [
+              {
+                "Value": "Body Spray & Mist",
+                "Locale": null
+              }
+            ]
+          },
+          "Fragrance_Name": {
+            "Id": "Fragrance_Name",
+            "Values": [
+              {
+                "Value": "Cinderella",
+                "Locale": null
+              }
+            ]
+          },
+          "GTIN14": {
+            "Id": "GTIN14",
+            "Values": [
+              {
+                "Value": "00667659334124",
+                "Locale": null
+              }
+            ]
+          }
         },
-        "AVAILABILITY": {
-          "Id": "AVAILABILITY",
-          "Values": [
-            {
-              "Value": "True",
-              "Locale": null
-            }
-          ]
+        "Description": "What it smells like: seeing your kindness and effort pay off. \n\n What it does: nourishes your skin for the most refreshing, truest way to fragrance.",
+        "UPCs": [
+          "667659334124"
+        ],
+        "Name": "Cinderella Fine Fragrance Mist",
+        "ImageUrl": "https://www.bathandbodyworks.com/on/demandware.static/-/Sites-master-catalog/default/dw3e917cf0/hires/028010124.jpg",
+        "Id": "028010124",
+        "CategoryId": "body-sprays-mists",
+        "Active": true,
+        "ProductPageUrl": "https://www.bathandbodyworks.com/p/cinderella-fine-fragrance-mist-028010124.html",
+        "Disabled": false,
+        "FamilyIds": [],
+        "QuestionIds": [],
+        "ISBNs": [],
+        "Brand": {},
+        "ModelNumbers": [],
+        "EANs": [],
+        "StoryIds": [],
+        "ManufacturerPartNumbers": [],
+        "ReviewIds": [],
+        "BrandExternalId": null
+      }
+    ],
+    "Includes": {},
+    "HasErrors": false,
+    "Errors": []
+  },
+  {
+    "Limit": 10,
+    "Offset": 0,
+    "TotalResults": 1,
+    "Locale": "en_US",
+    "Results": [
+      {
+        "AttributesOrder": [
+          "Form",
+          "AVAILABILITY",
+          "Launch_Date",
+          "Product_Type",
+          "Fragrance_Name",
+          "GTIN14"
+        ],
+        "Attributes": {
+          "Form": {
+            "Id": "Form",
+            "Values": [
+              {
+                "Value": "Hanging Fragrance Diffuser",
+                "Locale": null
+              }
+            ]
+          },
+          "AVAILABILITY": {
+            "Id": "AVAILABILITY",
+            "Values": [
+              {
+                "Value": "True",
+                "Locale": null
+              }
+            ]
+          },
+          "Launch_Date": {
+            "Id": "Launch_Date",
+            "Values": [
+              {
+                "Value": "2024-11-11T11:00:00.000Z",
+                "Locale": null
+              }
+            ]
+          },
+          "Product_Type": {
+            "Id": "Product_Type",
+            "Values": [
+              {
+                "Value": "Hanging Fragrance Diffuser",
+                "Locale": null
+              }
+            ]
+          },
+          "Fragrance_Name": {
+            "Id": "Fragrance_Name",
+            "Values": [
+              {
+                "Value": "Champagne Toast",
+                "Locale": null
+              }
+            ]
+          },
+          "GTIN14": {
+            "Id": "GTIN14",
+            "Values": [
+              {
+                "Value": "00667659324279",
+                "Locale": null
+              }
+            ]
+          }
         },
-        "Launch_Date": {
-          "Id": "Launch_Date",
-          "Values": [
-            {
-              "Value": "2025-02-16T11:00:00.000Z",
-              "Locale": null
-            }
-          ]
-        },
-        "Collection": {
-          "Id": "Collection",
-          "Values": [
-            {
-              "Value": "COLLABORATION",
-              "Locale": null
-            }
-          ]
-        },
-        "Product_Type": {
-          "Id": "Product_Type",
-          "Values": [
-            {
-              "Value": "Body Spray & Mist",
-              "Locale": null
-            }
-          ]
-        },
-        "Fragrance_Name": {
-          "Id": "Fragrance_Name",
-          "Values": [
-            {
-              "Value": "Cinderella",
-              "Locale": null
-            }
-          ]
-        },
-        "GTIN14": {
-          "Id": "GTIN14",
-          "Values": [
-            {
-              "Value": "00667659334124",
-              "Locale": null
-            }
-          ]
-        }
-      },
-      "Description": "What it smells like: seeing your kindness and effort pay off. \n\n What it does: nourishes your skin for the most refreshing, truest way to fragrance.",
-      "UPCs": [
-        "667659334124"
-      ],
-      "Name": "Cinderella Fine Fragrance Mist",
-      "ImageUrl": "https://www.bathandbodyworks.com/on/demandware.static/-/Sites-master-catalog/default/dw3e917cf0/hires/028010124.jpg",
-      "Id": "028010124",
-      "CategoryId": "body-sprays-mists",
-      "Active": true,
-      "ProductPageUrl": "https://www.bathandbodyworks.com/p/cinderella-fine-fragrance-mist-028010124.html",
-      "Disabled": false,
-      "FamilyIds": [],
-      "QuestionIds": [],
-      "ISBNs": [],
-      "Brand": {},
-      "ModelNumbers": [],
-      "EANs": [],
-      "StoryIds": [],
-      "ManufacturerPartNumbers": [],
-      "ReviewIds": [],
-      "BrandExternalId": null
-    }
-  ],
+        "Description": "What it smells like: a fruity, sweet, sparkling spritzer. \n\n What it does: fills your space with noticeable, continuous fragrance.",
+        "UPCs": [
+          "667659324279"
+        ],
+        "Name": "Champagne Toast Hanging Fragrance Diffuser",
+        "ImageUrl": "https://www.bathandbodyworks.com/on/demandware.static/-/Sites-master-catalog/default/dwb2d8cbfb/hires/028009539.jpg",
+        "Id": "028009539",
+        "CategoryId": "hanging-fragrance-diffusers",
+        "Active": true,
+        "ProductPageUrl": "https://www.bathandbodyworks.com/p/champagne-toast-hanging-fragrance-diffuser-028009539.html",
+        "Disabled": false,
+        "Brand": {},
+        "BrandExternalId": null,
+        "ManufacturerPartNumbers": [],
+        "ReviewIds": [],
+        "FamilyIds": [],
+        "ISBNs": [],
+        "QuestionIds": [],
+        "ModelNumbers": [],
+        "EANs": [],
+        "StoryIds": []
+      }
+    ],
   "Includes": {},
   "HasErrors": false,
   "Errors": []
-}
+  }
+]
