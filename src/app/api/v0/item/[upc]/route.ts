@@ -70,7 +70,6 @@ export async function GET(
   }
 
   const { upc } = await params
-  console.log('{upc}: ', upc)
 
   const item = await prisma.item.findFirst({
     where: {
@@ -123,7 +122,6 @@ export async function GET(
         productPageUrl: item.productPageUrl,
       },
     })
-    console.log('newItem:', newItem)
     return Response.json({ newItem: newItem })
   }
 }
