@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/mrcreel/bbw-inventory/compare/v1.1.0...v1.2.0) (2025-03-16)
+
+
+### Features
+
+* **prissma:** get item from BBW if not in database ([8901012](https://github.com/mrcreel/bbw-inventory/commit/890101219dc118603254fbd2e7be2b9181b3d2e1))
+
 ## [1.1.0](https://github.com/mrcreel/bbw-inventory/compare/v1.0.0...v1.1.0) (2025-03-11)
 
 
