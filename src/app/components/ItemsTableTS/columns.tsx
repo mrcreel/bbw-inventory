@@ -48,11 +48,11 @@ export const columns: ColumnDef<Item>[] = [
   },
   {
     accessorKey: 'id',
-    header: () => <p className="border border-black bg-red-500">ID</p>,
+    header: () => <p className="">ID</p>,
   },
   {
     accessorKey: 'name',
-    header: 'Name',
+    header: () => <p className="">Name</p>,
   },
   {
     accessorKey: 'UPCs',
@@ -96,6 +96,6 @@ export const columns: ColumnDef<Item>[] = [
   },
   {
     accessorKey: 'quantity',
-    header: 'Quantity',
+    header: () => <p className="text-center">Quantity</p>,
   },
 ]
