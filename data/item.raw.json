@@ -81,9 +81,7 @@
           }
         },
         "Description": "What it smells like: seeing your kindness and effort pay off. \n\n What it does: nourishes your skin for the most refreshing, truest way to fragrance.",
-        "UPCs": [
-          "667659334124"
-        ],
+        "UPCs": ["667659334124"],
         "Name": "Cinderella Fine Fragrance Mist",
         "ImageUrl": "https://www.bathandbodyworks.com/on/demandware.static/-/Sites-master-catalog/default/dw3e917cf0/hires/028010124.jpg",
         "Id": "028010124",
@@ -179,9 +177,7 @@
           }
         },
         "Description": "What it smells like: a fruity, sweet, sparkling spritzer. \n\n What it does: fills your space with noticeable, continuous fragrance.",
-        "UPCs": [
-          "667659324279"
-        ],
+        "UPCs": ["667659324279"],
         "Name": "Champagne Toast Hanging Fragrance Diffuser",
         "ImageUrl": "https://www.bathandbodyworks.com/on/demandware.static/-/Sites-master-catalog/default/dwb2d8cbfb/hires/028009539.jpg",
         "Id": "028009539",
@@ -201,8 +197,737 @@
         "StoryIds": []
       }
     ],
-  "Includes": {},
-  "HasErrors": false,
-  "Errors": []
+    "Includes": {},
+    "HasErrors": false,
+    "Errors": []
+  },
+  {
+    "Limit": 10,
+    "Offset": 0,
+    "TotalResults": 1,
+    "Locale": "en_US",
+    "Results": [
+      {
+        "AttributesOrder": [
+          "Descriptive_Name",
+          "Form",
+          "Launch_Date",
+          "Fragrance_Name",
+          "AVAILABILITY",
+          "Collection",
+          "Product_Type",
+          "GTIN14"
+        ],
+        "Attributes": {
+          "Descriptive_Name": {
+            "Id": "Descriptive_Name",
+            "Values": [
+              {
+                "Value": "FRESH BALSAM",
+                "Locale": null
+              }
+            ]
+          },
+          "Form": {
+            "Id": "Form",
+            "Values": [
+              {
+                "Value": "3-Wick Candle",
+                "Locale": null
+              }
+            ]
+          },
+          "Launch_Date": {
+            "Id": "Launch_Date",
+            "Values": [
+              {
+                "Value": "2023-10-23T10:00:00.000Z",
+                "Locale": null
+              }
+            ]
+          },
+          "Fragrance_Name": {
+            "Id": "Fragrance_Name",
+            "Values": [
+              {
+                "Value": "Fresh Balsam",
+                "Locale": null
+              }
+            ]
+          },
+          "AVAILABILITY": {
+            "Id": "AVAILABILITY",
+            "Values": [
+              {
+                "Value": "True",
+                "Locale": null
+              }
+            ]
+          },
+          "Collection": {
+            "Id": "Collection",
+            "Values": [
+              {
+                "Value": "STORYBOOK",
+                "Locale": null
+              }
+            ]
+          },
+          "Product_Type": {
+            "Id": "Product_Type",
+            "Values": [
+              {
+                "Value": "3-Wick Candle",
+                "Locale": null
+              }
+            ]
+          },
+          "GTIN14": {
+            "Id": "GTIN14",
+            "Values": [
+              {
+                "Value": "00667558803349",
+                "Locale": null
+              }
+            ]
+          }
+        },
+        "UPCs": ["667558803349"],
+        "Name": "Fresh Balsam 3-Wick Candle",
+        "Description": "What it smells like: finding the perfect Christmas tree. \n\n What it does: delivers an amazing, room-filling fragrance experience.",
+        "ImageUrl": "https://www.bathandbodyworks.com/on/demandware.static/-/Sites-master-catalog/default/dwf734fe0f/hires/026736828.jpg",
+        "Id": "026736828",
+        "CategoryId": "3-wick-candles",
+        "Active": false,
+        "Disabled": false,
+        "Brand": {},
+        "EANs": [],
+        "StoryIds": [],
+        "ModelNumbers": [],
+        "QuestionIds": [],
+        "ISBNs": [],
+        "FamilyIds": [],
+        "ManufacturerPartNumbers": [],
+        "ReviewIds": [],
+        "BrandExternalId": null,
+        "ProductPageUrl": null
+      }
+    ],
+    "Includes": {},
+    "HasErrors": false,
+    "Errors": []
+  },
+  {
+    "Limit": 10,
+    "Offset": 0,
+    "TotalResults": 2,
+    "Locale": "en_US",
+    "Results": [
+      {
+        "AttributesOrder": [
+          "Form",
+          "AVAILABILITY",
+          "Launch_Date",
+          "Collection",
+          "Product_Type",
+          "Fragrance_Name"
+        ],
+        "Attributes": {
+          "Form": {
+            "Id": "Form",
+            "Values": [
+              {
+                "Value": "Ultimate Hydration Body Cream",
+                "Locale": null
+              }
+            ]
+          },
+          "AVAILABILITY": {
+            "Id": "AVAILABILITY",
+            "Values": [
+              {
+                "Value": "True",
+                "Locale": null
+              }
+            ]
+          },
+          "Launch_Date": {
+            "Id": "Launch_Date",
+            "Values": [
+              {
+                "Value": "2022-05-06T10:00:00.000Z",
+                "Locale": null
+              }
+            ]
+          },
+          "Collection": {
+            "Id": "Collection",
+            "Values": [
+              {
+                "Value": "CORE",
+                "Locale": null
+              }
+            ]
+          },
+          "Product_Type": {
+            "Id": "Product_Type",
+            "Values": [
+              {
+                "Value": "Body Cream",
+                "Locale": null
+              }
+            ]
+          },
+          "Fragrance_Name": {
+            "Id": "Fragrance_Name",
+            "Values": [
+              {
+                "Value": "Midsummer Dream",
+                "Locale": null
+              }
+            ]
+          }
+        },
+        "UPCs": ["667554665644", "667554665651"],
+        "Description": "What it smells like: the moment when bright beach days fade into dreamy starlit nights \n\n What it does: leaves your skin feeling soft, smooth and replenished, just like your favorite body cream—but with hyaluronic acid.",
+        "Name": "Midsummer Dream Ultimate Hydration Body Cream",
+        "ImageUrl": "https://www.bathandbodyworks.com/on/demandware.static/-/Sites-master-catalog/default/dw005fcba1/hires/026265957.jpg",
+        "Id": "026265957",
+        "CategoryId": "body-cream",
+        "Active": false,
+        "Disabled": false,
+        "Brand": {},
+        "ModelNumbers": [],
+        "EANs": [],
+        "StoryIds": [],
+        "ISBNs": [],
+        "QuestionIds": [],
+        "FamilyIds": [],
+        "ReviewIds": [],
+        "ManufacturerPartNumbers": [],
+        "BrandExternalId": null,
+        "ProductPageUrl": null
+      }
+    ],
+    "Includes": {},
+    "HasErrors": false,
+    "Errors": []
+  },
+  {
+    "Limit": 10,
+    "Offset": 0,
+    "TotalResults": 2,
+    "Locale": "en_US",
+    "Results": [
+      {
+        "AttributesOrder": [
+          "Form",
+          "AVAILABILITY",
+          "Launch_Date",
+          "Collection",
+          "Product_Type",
+          "Fragrance_Name"
+        ],
+        "Attributes": {
+          "Form": {
+            "Id": "Form",
+            "Values": [
+              {
+                "Value": "Shower Gel",
+                "Locale": null
+              }
+            ]
+          },
+          "AVAILABILITY": {
+            "Id": "AVAILABILITY",
+            "Values": [
+              {
+                "Value": "True",
+                "Locale": null
+              }
+            ]
+          },
+          "Launch_Date": {
+            "Id": "Launch_Date",
+            "Values": [
+              {
+                "Value": "2021-04-08T10:00:00.000Z",
+                "Locale": null
+              }
+            ]
+          },
+          "Collection": {
+            "Id": "Collection",
+            "Values": [
+              {
+                "Value": "Faceted",
+                "Locale": null
+              }
+            ]
+          },
+          "Product_Type": {
+            "Id": "Product_Type",
+            "Values": [
+              {
+                "Value": "Body Wash & Shower Gel",
+                "Locale": null
+              }
+            ]
+          },
+          "Fragrance_Name": {
+            "Id": "Fragrance_Name",
+            "Values": [
+              {
+                "Value": "Confetti Daydream",
+                "Locale": null
+              }
+            ]
+          }
+        },
+        "Description": "A floral-fruity swirl of fresh raspberries, sparkling pear and blue iris in a rich, bubbly lather",
+        "UPCs": ["667554943339", "667554943346"],
+        "Name": "Confetti Daydream Shower Gel",
+        "ImageUrl": "https://www.bathandbodyworks.com/on/demandware.static/-/Sites-master-catalog/default/dwad97fc7f/hires/026289996.jpg",
+        "Id": "026289996",
+        "CategoryId": "promotion",
+        "Active": false,
+        "Disabled": false,
+        "EANs": [],
+        "StoryIds": [],
+        "ModelNumbers": [],
+        "Brand": {},
+        "BrandExternalId": null,
+        "ProductPageUrl": null,
+        "ManufacturerPartNumbers": [],
+        "ReviewIds": [],
+        "FamilyIds": [],
+        "QuestionIds": [],
+        "ISBNs": []
+      }
+    ],
+    "Includes": {},
+    "HasErrors": false,
+    "Errors": []
+  },
+  {
+    "Limit": 10,
+    "Offset": 0,
+    "TotalResults": 1,
+    "Locale": "en_US",
+    "Results": [
+      {
+        "AttributesOrder": [
+          "Form",
+          "AVAILABILITY",
+          "Launch_Date",
+          "Collection",
+          "Product_Type",
+          "Fragrance_Name"
+        ],
+        "Attributes": {
+          "Form": {
+            "Id": "Form",
+            "Values": [
+              {
+                "Value": "Gentle Foaming Hand Soap",
+                "Locale": null
+              }
+            ]
+          },
+          "AVAILABILITY": {
+            "Id": "AVAILABILITY",
+            "Values": [
+              {
+                "Value": "True",
+                "Locale": null
+              }
+            ]
+          },
+          "Launch_Date": {
+            "Id": "Launch_Date",
+            "Values": [
+              {
+                "Value": "2022-02-21T11:00:00.000Z",
+                "Locale": null
+              }
+            ]
+          },
+          "Collection": {
+            "Id": "Collection",
+            "Values": [
+              {
+                "Value": "Core",
+                "Locale": null
+              }
+            ]
+          },
+          "Product_Type": {
+            "Id": "Product_Type",
+            "Values": [
+              {
+                "Value": "Foaming Hand Soap",
+                "Locale": null
+              }
+            ]
+          },
+          "Fragrance_Name": {
+            "Id": "Fragrance_Name",
+            "Values": [
+              {
+                "Value": "Freshwater",
+                "Locale": null
+              }
+            ]
+          }
+        },
+        "Description": "A cool, rejuvenating lake swim in the Alps that washes away germs and helps maintain skin's natural moisture barrier.",
+        "UPCs": ["667556221992"],
+        "Name": "Freshwater Gentle Foaming Hand Soap",
+        "ImageUrl": "https://www.bathandbodyworks.com/on/demandware.static/-/Sites-master-catalog/default/dwfee7294f/hires/026438825.jpg",
+        "Id": "026438825",
+        "CategoryId": "promotion",
+        "Active": false,
+        "Disabled": false,
+        "ModelNumbers": [],
+        "QuestionIds": [],
+        "ISBNs": [],
+        "BrandExternalId": null,
+        "ProductPageUrl": null,
+        "Brand": {},
+        "EANs": [],
+        "StoryIds": [],
+        "ManufacturerPartNumbers": [],
+        "ReviewIds": [],
+        "FamilyIds": []
+      }
+    ],
+    "Includes": {},
+    "HasErrors": false,
+    "Errors": []
+  },
+  {
+    "Limit": 10,
+    "Offset": 0,
+    "TotalResults": 1,
+    "Locale": "en_US",
+    "Results": [
+      {
+        "AttributesOrder": [
+          "Form",
+          "AVAILABILITY",
+          "Launch_Date",
+          "Product_Type",
+          "Fragrance_Name",
+          "GTIN14"
+        ],
+        "Attributes": {
+          "Form": {
+            "Id": "Form",
+            "Values": [
+              {
+                "Value": "Single Wick Candle",
+                "Locale": null
+              }
+            ]
+          },
+          "AVAILABILITY": {
+            "Id": "AVAILABILITY",
+            "Values": [
+              {
+                "Value": "True",
+                "Locale": null
+              }
+            ]
+          },
+          "Launch_Date": {
+            "Id": "Launch_Date",
+            "Values": [
+              {
+                "Value": "2024-01-08T11:00:00.000Z",
+                "Locale": null
+              }
+            ]
+          },
+          "Product_Type": {
+            "Id": "Product_Type",
+            "Values": [
+              {
+                "Value": "Single Wick Candle",
+                "Locale": null
+              }
+            ]
+          },
+          "Fragrance_Name": {
+            "Id": "Fragrance_Name",
+            "Values": [
+              {
+                "Value": "Orange Blossom",
+                "Locale": null
+              }
+            ]
+          },
+          "GTIN14": {
+            "Id": "GTIN14",
+            "Values": [
+              {
+                "Value": "00667559265825",
+                "Locale": null
+              }
+            ]
+          }
+        },
+        "Description": "What it smells like: an orange grove full of ready-to-eat fruit and stunning blooms. \n\n What it does: fills any room with beautiful, long-lasting fragrance.",
+        "UPCs": ["667559265825"],
+        "Name": "Orange Blossom Single Wick Candle",
+        "ImageUrl": "https://www.bathandbodyworks.com/on/demandware.static/-/Sites-master-catalog/default/dw9982f0b8/hires/028000654.jpg",
+        "Id": "028000654",
+        "CategoryId": "single-wick-candles",
+        "BrandExternalId": "White Barn",
+        "Brand": {
+          "Id": "White Barn"
+        },
+        "Active": false,
+        "Disabled": false,
+        "ModelNumbers": [],
+        "QuestionIds": [],
+        "ISBNs": [],
+        "ProductPageUrl": null,
+        "EANs": [],
+        "StoryIds": [],
+        "ManufacturerPartNumbers": [],
+        "ReviewIds": [],
+        "FamilyIds": []
+      }
+    ],
+    "Includes": {},
+    "HasErrors": false,
+    "Errors": []
+  },
+  {
+    "Limit": 10,
+    "Offset": 0,
+    "TotalResults": 1,
+    "Locale": "en_US",
+    "Results": [
+      {
+        "AttributesOrder": [
+          "Form",
+          "AVAILABILITY",
+          "Launch_Date",
+          "Collection",
+          "Product_Type",
+          "Fragrance_Name"
+        ],
+        "Attributes": {
+          "Form": {
+            "Id": "Form",
+            "Values": [
+              {
+                "Value": "Mason Single Wick Candle",
+                "Locale": null
+              }
+            ]
+          },
+          "AVAILABILITY": {
+            "Id": "AVAILABILITY",
+            "Values": [
+              {
+                "Value": "True",
+                "Locale": null
+              }
+            ]
+          },
+          "Launch_Date": {
+            "Id": "Launch_Date",
+            "Values": [
+              {
+                "Value": "2022-02-04T11:00:00.000Z",
+                "Locale": null
+              }
+            ]
+          },
+          "Collection": {
+            "Id": "Collection",
+            "Values": [
+              {
+                "Value": "CORE",
+                "Locale": null
+              }
+            ]
+          },
+          "Product_Type": {
+            "Id": "Product_Type",
+            "Values": [
+              {
+                "Value": "Single Wick Candle",
+                "Locale": null
+              }
+            ]
+          },
+          "Fragrance_Name": {
+            "Id": "Fragrance_Name",
+            "Values": [
+              {
+                "Value": "Sun-Drenched Linen",
+                "Locale": null
+              }
+            ]
+          }
+        },
+        "Description": "Just-washed laundry on a sunny summer day that fills any room with beautiful, long-lasting fragrance.",
+        "UPCs": ["667556216066"],
+        "Name": "Sun-Drenched Linen Mason Single Wick Candle",
+        "ImageUrl": "https://dev28-store-bathandbodyworks.demandware.net/on/demandware.static/-/Sites-master-catalog/default/dw6ffce03b/hires/026437370.jpg",
+        "Id": "026437370",
+        "CategoryId": "promotion",
+        "BrandExternalId": "White Barn",
+        "Brand": {
+          "Id": "White Barn"
+        },
+        "Active": false,
+        "Disabled": false,
+        "ReviewIds": [],
+        "ManufacturerPartNumbers": [],
+        "ProductPageUrl": null,
+        "FamilyIds": [],
+        "QuestionIds": [],
+        "ISBNs": [],
+        "ModelNumbers": [],
+        "EANs": [],
+        "StoryIds": []
+      }
+    ],
+    "Includes": {},
+    "HasErrors": false,
+    "Errors": []
+  },
+  {
+    "Limit": 10,
+    "Offset": 0,
+    "TotalResults": 2,
+    "Locale": "en_US",
+    "Results": [
+      {
+        "AttributesOrder": ["AVAILABILITY"],
+        "Attributes": {
+          "AVAILABILITY": {
+            "Id": "AVAILABILITY",
+            "Values": [
+              {
+                "Value": "True",
+                "Locale": null
+              }
+            ]
+          }
+        },
+        "UPCs": ["667552758225", "667552758232"],
+        "Id": "026049833",
+        "CategoryId": "BV_MISCELLANEOUS_CATEGORY",
+        "Active": false,
+        "Disabled": false,
+        "ImageUrl": null,
+        "Brand": {},
+        "ModelNumbers": [],
+        "EANs": [],
+        "StoryIds": [],
+        "ISBNs": [],
+        "QuestionIds": [],
+        "FamilyIds": [],
+        "Name": null,
+        "Description": null,
+        "ReviewIds": [],
+        "ManufacturerPartNumbers": [],
+        "BrandExternalId": null,
+        "ProductPageUrl": null
+      },
+      {
+        "AttributesOrder": [
+          "Form",
+          "AVAILABILITY",
+          "Launch_Date",
+          "Collection",
+          "Product_Type",
+          "Fragrance_Name"
+        ],
+        "Attributes": {
+          "Form": {
+            "Id": "Form",
+            "Values": [
+              {
+                "Value": "Fine Fragrance Mist",
+                "Locale": null
+              }
+            ]
+          },
+          "AVAILABILITY": {
+            "Id": "AVAILABILITY",
+            "Values": [
+              {
+                "Value": "True",
+                "Locale": null
+              }
+            ]
+          },
+          "Launch_Date": {
+            "Id": "Launch_Date",
+            "Values": [
+              {
+                "Value": "2020-12-26T11:00:00.000Z",
+                "Locale": null
+              }
+            ]
+          },
+          "Collection": {
+            "Id": "Collection",
+            "Values": [
+              {
+                "Value": "Bold Blooms",
+                "Locale": null
+              }
+            ]
+          },
+          "Product_Type": {
+            "Id": "Product_Type",
+            "Values": [
+              {
+                "Value": "Body Spray & Mist",
+                "Locale": null
+              }
+            ]
+          },
+          "Fragrance_Name": {
+            "Id": "Fragrance_Name",
+            "Values": [
+              {
+                "Value": "Champagne Toast",
+                "Locale": null
+              }
+            ]
+          }
+        },
+        "Description": "A cheers-worthy spritzer of bubbly champagne, sparkling berries & juicy tangerine in our irresistible, long-lasting mist",
+        "UPCs": ["667552758225", "667552758232"],
+        "Name": "Champagne Toast Fine Fragrance Mist",
+        "ImageUrl": "https://www.bathandbodyworks.com/on/demandware.static/-/Sites-master-catalog/default/dwba1d81b0/hires/026049832.jpg",
+        "Id": "026049832",
+        "CategoryId": "body-sprays-mists",
+        "Active": false,
+        "Disabled": false,
+        "Brand": {},
+        "ModelNumbers": [],
+        "EANs": [],
+        "StoryIds": [],
+        "ISBNs": [],
+        "QuestionIds": [],
+        "FamilyIds": [],
+        "ReviewIds": [],
+        "ManufacturerPartNumbers": [],
+        "BrandExternalId": null,
+        "ProductPageUrl": null
+      }
+    ],
+    "Includes": {},
+    "HasErrors": false,
+    "Errors": []
   }
 ]

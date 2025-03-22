@@ -15,7 +15,7 @@ const ItemsTable = async () => {
   return (
     <div className="flex flex-col flex-1 items-center justify-baseline w-full border border-black bg-neutral-200">
       <h1>src/app/components/ItemsTable/page.tsx</h1>
-      <div className="container mx-auto py-10">
+      <div className="w-full py-10 px-4">
         <DataTable columns={columns} data={data} />
       </div>
     </div>
