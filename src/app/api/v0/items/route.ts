@@ -20,27 +20,4 @@ export async function GET(req: NextRequest) {
       { status: 500 },
     )
   }
-  // const file = await fs.readFile(`${process.cwd()}/data/items.json`, "utf8");
-  // const data = await JSON.parse(file);
-  // const items = await data.map((rawItem: RawItem) => {
-  //   const itemData = rawItem.Results[0];
-
-  //   const item: Item = {
-  //     id: itemData.Id,
-  //     name: itemData.Name,
-  //     UPCs: itemData.UPCs,
-  //     description: itemData.Description,
-  //     imageUrl: itemData.ImageUrl,
-  //     categoryId: itemData.CategoryId,
-  //     form: itemData.Attributes.Form.Values[0].Value,
-  //     collection: itemData.Attributes.Collection.Values[0].Value,
-  //     productType: itemData.Attributes.Product_Type.Values[0].Value,
-  //     fragranceName: itemData.Attributes.Fragrance_Name.Values[0].Value,
-  //     productPageUrl: itemData.ProductPageUrl,
-  //   };
-
-  //   return item;
-  // });
-
-  // return Response.json(items);
 }

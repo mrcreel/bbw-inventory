@@ -24,11 +24,17 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning={true}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col items-center justify-between min-h-screen font-[family-name:var(--font-geist-sans)] bg-teal-200`}
       >
+        <header className="flex flex-col items-center justify-center w-full border border-black bg-indigo-200">
+          header
+        </header>
         {children}
+        <footer className=" flex flex-col items-center justify-center w-full border border-black bg-red-200">
+          footer
+        </footer>
       </body>
     </html>
   )
