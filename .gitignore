@@ -42,3 +42,5 @@ next-env.d.ts
 
 test.*
 test/*.*
+
+src/app/components/ItemsTable/page copy.tsx

@@ -1,22 +1,25 @@
-import ItemCard from './components/ItemCard/page'
-import ItemsTableUI from './components/ItemsTableUI/page'
-import SearchBar from './components/SearchBar/page'
+import React from 'react'
 
-/* eslint-disable react/react-in-jsx-scope */
-export default async function Home() {
+/*
+import ItemCard from './components/ItemCard/page'
+import DemoPage from './components/ItemsTable/page'
+import SearchBar from './components/SearchBar/page'
+*/
+
+export default function Home() {
   return (
-    <main className="flex flex-col flex-1 items-center justify-baseline w-full px-4 py-1 border border-black bg-amber-200">
-      src/app/page.tsx
-      <div className="flex flex-col flex-auto w-full p-1 border border-black bg-emerald-200">
-        Items Page
-        <div className="flex flex-col flex-auto overflow-y-scroll resize-y p-1 border border-black w-full bg-pink-200">
-          <p className="bg-white">Top</p>
-          <div className="flex-auto  resize-y border border-black w-full bg-slate-200">
-            <ItemsTableUI />
+    <main className="flex flex-col md:flex-row grow border border-black bg-red-500 ">
+      <div className="grow p-1 md:w-[63%] border border-black bg-black"></div>
+      <div className="grow p-1 md:w-[37%] md:min-w-[450px] border border-black bg-white"></div>
+      {/*
+      <div className="flex flex-row flex-auto w-full h-full p-1  bg-emerald-200">
+        <div className="flex flex-col flex-auto w-[50%] overflow-y-scroll resize-y p-1 border border-black bg-pink-200">
+          {/*
+          <div className="flex-auto h-full resize-y border border-black w-full bg-slate-700">\
+            <DemoPage />
           </div>
         </div>
-        <div className="flex flex-col flex-auto border border-black w-full bg-indigo-200">
-          <p className="bg-white">Bottom</p>
+        <div className="flex flex-col flex-auto w-[50%] p-1 border border-black bg-indigo-200">
           <div className="flex flex-col flex-auto border border-black h-full">
             <div className="">
               <SearchBar />
@@ -27,6 +30,7 @@ export default async function Home() {
           </div>
         </div>
       </div>
+        */}
     </main>
   )
 }
