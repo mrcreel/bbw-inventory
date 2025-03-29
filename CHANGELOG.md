@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/mrcreel/bbw-inventory/compare/v1.4.0...v1.5.0) (2025-03-29)
+
+
+### Features
+
+* **api:** added call to bbw remote api to get item data ([90f3b57](https://github.com/mrcreel/bbw-inventory/commit/90f3b57d7e5e8507d448dfdddd14bc7242ddbc3f))
+
 ## [1.4.0](https://github.com/mrcreel/bbw-inventory/compare/v1.3.0...v1.4.0) (2025-03-28)
 
 
