@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.0](https://github.com/mrcreel/bbw-inventory/compare/v1.3.0...v1.4.0) (2025-03-28)
+
+
+### Features
+
+* **app-page:** set layout of main page ([e22557a](https://github.com/mrcreel/bbw-inventory/commit/e22557acee25e5cc5dd4cba89da124a1103c34b0))
+* **shadcn:** change ItemsTable to tanstack ([b3c48ac](https://github.com/mrcreel/bbw-inventory/commit/b3c48ac13fbd3bae48cead9ae6acf83fb9c596a2))
+
 ## [1.3.0](https://github.com/mrcreel/bbw-inventory/compare/v1.2.0...v1.3.0) (2025-03-22)
 
 
