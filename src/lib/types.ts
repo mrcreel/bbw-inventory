@@ -1,7 +1,7 @@
 export type Item = {
   id: string
   name: string
-  UPCs: string[]
+  UPC: string
   description: string
   imageUrl: string
   categoryId: string
@@ -12,6 +12,8 @@ export type Item = {
   productPageUrl?: string
   location?: string
   quantity?: number
+  createdAt?: Date
+  updatedAt?: Date
 }
 
 export type RawItem = {
@@ -26,6 +28,7 @@ export type RawItem = {
     Description: string
     ImageUrl: string
     CategoryId: string
+    ProductPageUrl?: string
     Attributes: {
       Form: {
         Values: {
@@ -48,6 +51,5 @@ export type RawItem = {
         }[]
       }
     }
-    ProductPageUrl?: string
   }[]
 }

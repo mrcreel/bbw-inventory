@@ -1,9 +1,24 @@
-import { promises as fs } from 'fs'
-
 import { NextRequest, NextResponse } from 'next/server'
 import { PrismaClient } from '@prisma/client'
 
-import type { Item, RawItem } from '@/lib/types'
+async function getData(upc: string) {
+  const url = `https://api.bazaarvoice.com/data/products.json?passkey=${process.env.API_KEY}&apiVersion=5.4&filter=upc:${upc}`
+  try {
+    const response = await fetch(url)
+    if (!response.ok) {
+      throw new Error(`Response status: ${response.status}`)
+    }
+
+    const json = await response.json()
+    return json
+  } catch (error) {
+    if (error instanceof Error) {
+      console.error(error.message)
+    } else {
+      console.error('An unknown error occurred')
+    }
+  }
+}
 
 const prisma = new PrismaClient()
 
@@ -20,57 +35,38 @@ export async function GET(
 
   const { upc } = await params
 
-  const item = await prisma.item.findFirst({
+  const itemCheck = await prisma.item.findUnique({
     where: {
-      UPCs: {
-        has: upc,
-      },
+      UPC: upc,
     },
   })
 
-  if (item) {
-    return Response.json({ item: item })
+  if (itemCheck) {
+    return Response.json({ item: itemCheck })
   } else {
-    const file = await fs.readFile(
-      `${process.cwd()}/data/item.raw.json`,
-      'utf8',
-    )
-    const data = await JSON.parse(file)
-
-    const rawData = data.filter((rawItemData: RawItem) => {
-      return rawItemData.Results[0].UPCs.includes(upc)
-    })
-    const itemData = rawData[0].Results[0]
-
-    const item: Item = {
-      id: itemData.Id,
-      name: itemData.Name,
-      UPCs: itemData.UPCs,
-      description: itemData.Description,
-      imageUrl: itemData.ImageUrl,
-      categoryId: itemData.CategoryId,
-      form: itemData.Attributes.Form.Values[0].Value,
-      collection: itemData.Attributes.Collection.Values[0].Value,
-      productType: itemData.Attributes.Product_Type.Values[0].Value,
-      fragranceName: itemData.Attributes.Fragrance_Name.Values[0].Value,
-      productPageUrl: itemData.ProductPageUrl,
-    }
+    const data = await getData(upc)
+    const itemData = data.Results.at(-1)
 
     const newItem = await prisma.item.create({
       data: {
-        id: item.id,
-        name: item.name,
-        UPCs: item.UPCs,
-        description: item.description,
-        imageUrl: item.imageUrl,
-        categoryId: item.categoryId,
-        form: item.form,
-        collection: item.collection,
-        productType: item.productType,
-        fragranceName: item.fragranceName,
-        productPageUrl: item.productPageUrl,
+        id: itemData.Id,
+        name: itemData.Name,
+        UPC: upc,
+        description: itemData.Description,
+        imageUrl: itemData.ImageUrl,
+        categoryId: itemData.CategoryId,
+        form: itemData.Attributes.Form.Values[0].Value,
+        collection: itemData.Attributes.Collection.Values[0].Value,
+        productType: itemData.Attributes.Product_Type.Values[0].Value,
+        fragranceName: itemData.Attributes.Fragrance_Name.Values[0].Value,
+        productPageUrl: itemData.ProductPageUrl ?? '',
+        location: '',
+        quantity: 0,
+        createdAt: new Date(Date.now()),
+        updatedAt: new Date(Date.now()),
       },
     })
+    console.log('newItem:', newItem)
     return Response.json({ newItem: newItem })
   }
 }

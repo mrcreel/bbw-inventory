@@ -1,4 +1,5 @@
 [
+  
   {
     "Limit": 10,
     "Offset": 0,
@@ -924,6 +925,145 @@
         "ManufacturerPartNumbers": [],
         "BrandExternalId": null,
         "ProductPageUrl": null
+      }
+    ],
+    "Includes": {},
+    "HasErrors": false,
+    "Errors": []
+  },
+  {
+    "Limit": 10,
+    "Offset": 0,
+    "TotalResults": 2,
+    "Locale": "en_US",
+    "Results": [
+      {
+        "AttributesOrder": [
+          "AVAILABILITY"
+        ],
+        "Attributes": {
+          "AVAILABILITY": {
+            "Id": "AVAILABILITY",
+            "Values": [
+              {
+                "Value": "True",
+                "Locale": null
+              }
+            ]
+          }
+        },
+        "UPCs": [
+          "667537485122",
+          "667537485139"
+        ],
+        "Id": "022692195",
+        "CategoryId": "BV_MISCELLANEOUS_CATEGORY",
+        "Active": false,
+        "Disabled": false,
+        "ImageUrl": null,
+        "BrandExternalId": null,
+        "ProductPageUrl": null,
+        "ManufacturerPartNumbers": [],
+        "Description": null,
+        "ReviewIds": [],
+        "Name": null,
+        "FamilyIds": [],
+        "ISBNs": [],
+        "QuestionIds": [],
+        "ModelNumbers": [],
+        "EANs": [],
+        "StoryIds": [],
+        "Brand": {}
+      },
+      {
+        "AttributesOrder": [
+          "Form",
+          "AVAILABILITY",
+          "Launch_Date",
+          "Collection",
+          "Product_Type",
+          "Fragrance_Name"
+        ],
+        "Attributes": {
+          "Form": {
+            "Id": "Form",
+            "Values": [
+              {
+                "Value": "Shower Gel",
+                "Locale": null
+              }
+            ]
+          },
+          "AVAILABILITY": {
+            "Id": "AVAILABILITY",
+            "Values": [
+              {
+                "Value": "True",
+                "Locale": null
+              }
+            ]
+          },
+          "Launch_Date": {
+            "Id": "Launch_Date",
+            "Values": [
+              {
+                "Value": "2015-05-11T10:00:00.000Z",
+                "Locale": null
+              }
+            ]
+          },
+          "Collection": {
+            "Id": "Collection",
+            "Values": [
+              {
+                "Value": "Core",
+                "Locale": null
+              }
+            ]
+          },
+          "Product_Type": {
+            "Id": "Product_Type",
+            "Values": [
+              {
+                "Value": "Body Wash & Shower Gel",
+                "Locale": null
+              }
+            ]
+          },
+          "Fragrance_Name": {
+            "Id": "Fragrance_Name",
+            "Values": [
+              {
+                "Value": "Tahiti Island Dream",
+                "Locale": null
+              }
+            ]
+          }
+        },
+        "Description": "A sexy summer blend of coconut water, Tahitian vanilla musk & kiwi blossom in a rich, bubbly lather",
+        "UPCs": [
+          "667537485122",
+          "667537485139"
+        ],
+        "Name": "Tahiti Island Dream Shower Gel",
+        "ImageUrl": "https://www.bathandbodyworks.com/on/demandware.static/-/Sites-master-catalog/default/dwdd2e29c1/hires/022692194.jpg",
+        "Id": "022692194",
+        "CategoryId": "body-wash-shower-gel",
+        "BrandExternalId": "Signature Collection",
+        "Brand": {
+          "Id": "Signature Collection"
+        },
+        "Active": false,
+        "Disabled": false,
+        "ProductPageUrl": null,
+        "ManufacturerPartNumbers": [],
+        "ReviewIds": [],
+        "FamilyIds": [],
+        "ISBNs": [],
+        "QuestionIds": [],
+        "ModelNumbers": [],
+        "EANs": [],
+        "StoryIds": []
       }
     ],
     "Includes": {},

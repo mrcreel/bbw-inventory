@@ -17,7 +17,7 @@ model Item {
   mongoId        String   @id @default(auto()) @map("_id") @db.ObjectId
   id             String   @unique
   name           String
-  UPCs           String[]
+  UPC            String   @unique
   description    String
   imageUrl       String
   categoryId     String
@@ -28,4 +28,6 @@ model Item {
   productPageUrl String?
   location       String?
   quantity       Int?
+  createdAt      DateTime?
+  updatedAt      DateTime?
 }

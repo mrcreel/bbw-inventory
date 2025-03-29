@@ -29,11 +29,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col flex-auto h-full items-center min-h-screen font-[family-name:var(--font-geist-sans)]`}
       >
-        <header className="flex flex-col items-center justify-center w-full p-1 border border-black bg-indigo-200">
+        <header className="flex flex-col items-center justify-center w-full p-1  border border-black bg-indigo-800">
           header
         </header>
         <div className="flex flex-col grow p-1 h-full w-full">{children}</div>
-        <footer className=" flex flex-col items-center justify-center w-full border border-black bg-red-200">
+        <footer className=" flex flex-col items-center justify-center w-full border border-black bg-red-800">
           footer
         </footer>
       </body>

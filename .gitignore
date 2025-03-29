@@ -43,4 +43,6 @@ next-env.d.ts
 test.*
 test/*.*
 
+data/item.test.json
+data/itemsRawData.ts
 src/app/components/ItemsTable/page copy.tsx
